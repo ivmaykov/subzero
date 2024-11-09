@@ -40,4 +40,4 @@ jobs:
     - name: Run Unit tests
       run: |
         cd ${{ github.workspace }}/java
-        ./gradlew test --info
+        gradle test --info
